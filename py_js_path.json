@@ -1,0 +1,9 @@
+{
+  "id": "py_js_path",
+  "backId": "root",
+  "question": "Py and JS path",
+  "markdown": "Select all that apply.",
+  "type": "checkboxes",
+  "options": null,
+  "nextId": "root"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "root",
+  "question": "What are your favorite programming languages?",
+  "markdown": "Select all that apply.",
+  "type": "checkboxes",
+  "allowMultiple": true,
+  "options": [
+    {
+      "text": "Python",
+      "value": "python"
+    },
+    {
+      "text": "JavaScript",
+      "value": "javascript"
+    },
+    {
+      "text": "C#",
+      "value": "csharp"
+    }
+  ],
+  "next": [
+    {
+      "conditions": ["python"],
+      "node": "python_path"
+    },
+    {
+      "conditions": ["javascript"],
+      "node": "javascript_path"
+    },
+    {
+      "conditions": ["python", "javascript"],
+      "node": "py_js_path"
+    },
+    {
+      "conditions": ["csharp"],
+      "node": "csharp_path"
+    }
+  ]
+}
